@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    background: linear-gradient(85deg, #d4145a, #fbb03b);
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container {
+    background: conic-gradient(#ff9950, #7f00ff, #e100ff);
+    height: 540px;
+    width: 440px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0);
+}
+
+input,
+button {
+    background: white;
+}
+
+.maintextbox {
+    background: none;
+    margin: 10px;
+
+}
+
+.savedtextbox {
+    margin: 10px;
+    background: none;
+
+}
+
+.mainboxclass {
+    margin: 22px 7px 70px 7px;
+}
+
+.maintextbox input {
+    padding: 15px;
+    border-radius: 5px;
+    width: 15rem;
+    border: none;
+}
+
+.maintextbox button {
+    width: 5rem;
+    border-radius: 5px;
+    background-color: #cf00ff;
+    border: none;
+    color: white;
+    transition: .2s ease-in-out;
+
+
+}
+
+
+.txtbox {
+    background: none;
+    margin: 7px;
+}
+
+.txtbox input {
+    padding: 15px;
+    border-radius: 5px;
+    width: 15rem;
+    border: none;
+    margin: 7px;
+    margin-bottom: 20px;
+}
+
+.txtbox button {
+    width: 5rem;
+    border-radius: 5px;
+    background-color: #cf00ff;
+    border: none;
+    margin: 7px;
+    margin-bottom: 20px;
+    color: white;
+    transition: .2s ease-in-out;
+
+}
+
+.delall {
+    background: none;
+}
+
+#delallbtn {
+    background-color: #cf00ff;
+    color: white;
+    /* padding: 3px; */
+    height: 45px;
+    width: 76px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: .2s ease-in-out;
+
+}
+
+/* HOVER PROPERTIES */
+
+.maintextbox button:hover,
+.txtbox button:hover,
+#delallbtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

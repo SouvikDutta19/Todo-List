@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="todostyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="maintextbox flex">
+            <!-- TODO: Add input field and button -->
+            <input type="text" id="addingbox" placeholder="Task to be done..." class="mainboxclass">
+            <button class="mainboxclass" id="firstbtn">Add</button>
+        </div>
+        <div class="savedtextbox">
+            <!-- TODO: Display saved tasks in a div with delete buttons for each task-->
+            <div class="txtbox flex ">
+                <input type="text" id="svdbox1">
+                <button id="del1">Delete</button>
+            </div>
+            <div class="txtbox flex ">
+                <input type="text" id="svdbox2">
+                <button id="del2">Delete</button>
+
+            </div>
+            <div class="txtbox flex ">
+                <input type="text" id="svdbox3">
+                <button id="del3">Delete</button>
+
+            </div>
+            <div class="txtbox flex ">
+                <input type="text" id="svdbox4">
+                <button id="del4">Delete</button>
+
+            </div>
+            <div class="delall flex">
+                <button id="delallbtn">Delete all</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="todoscript.js"></script>
+</body>
+
+</html>
